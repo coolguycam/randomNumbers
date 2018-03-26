@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Javascript Link -->
+    <script language="JavaScript"src="assets/javascript/script.js"></script>
+
+    <link rel="stylesheet" src="assets/javascript/style.css">
+
+    <title>Random#s</title>
+
+    <style>
+body {
+    background-image: url(https://ak2.picdn.net/shutterstock/videos/1178332/thumb/8.jpg);
+    
+    background-size: cover;
+}
+#text {
+    color: white;
+}    
+
+</style>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <h1 class="nav">Random Numbers</h1>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Welcome!</h1>
+            <p class="lead">This is an important notice that this website is under construction. Functionality is our biggest concerns, so if something doesn't work, just shut up and refresh the page.... or feel free to Google inspect it IDC fuck you, this hw is gonna be difficult</p>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div id="text" class="row">
+            <div class="col-md-8">
+                <p class="answer">
+                    3
+                </p>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Wins: <span id="wins"></span></div>
+                    <div class="panel-body">Losses: <span id="losses"></span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <button type="button" id="firstbtn" class="btn btn-primary">Primary</button>
+                <button type="button" id="secondbtn" class="btn btn-success">Success</button>
+                <button type="button" id="thirdbtn" class="btn btn-warning">Warning</button>
+                <button type="button" id="fourthbtn"class="btn btn-danger">Danger</button>
+            </div>
+        </div>
+
+        <div id="text" class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Your Score</div>
+                    <div id="score" class="panel-body"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
